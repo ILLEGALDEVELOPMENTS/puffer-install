@@ -16,16 +16,16 @@ echo -e "${BLUE}➤ ${GREEN}Updating package lists...${NC}"
 sudo apt update
 
 echo -e "${BLUE}➤ ${GREEN}Installing sudo...${NC}"
-apt install sudo
+apt install sudo -y
 
 echo -e "${BLUE}➤ ${GREEN}Installing systemctl...${NC}"
 apt install systemctl -y
 
 # Banner Design
-echo -e "${MAGENTA}╔═══════════════════════════════════════════╗"
-echo -e "${MAGENTA}║${CYAN}           PufferPanel Installer            ${MAGENTA}║"
-echo -e "${MAGENTA}║${YELLOW}              Made by ILLEGALDEVELOPMENTS              ${MAGENTA}║"
-echo -e "${MAGENTA}╚═══════════════════════════════════════════╝${NC}"
+echo -e "${MAGENTA}╔══════════════════════════════════════════════╗"
+echo -e "${MAGENTA}║${CYAN}    PufferPanel Installer            ${MAGENTA}║"
+echo -e "${MAGENTA}║${YELLOW} Made by ILLEGALDEVELOPMENTS       ${MAGENTA}║"
+echo -e "${MAGENTA}╚══════════════════════════════════════════════╝${NC}"
 
 # Add Subscribe Message
 echo -e "${CYAN}✨ ${RED}Don't forget to  VVisit Our Github Page ${BLUE}https://github.com/ILLEGALDEVELOPMENTS${CYAN} ✨${NC}"
@@ -51,8 +51,8 @@ echo -e "${BLUE}➤ ${GREEN}Enabling and starting PufferPanel service...${NC}"
 systemctl start pufferpanel
 
 # Completion Message
-echo -e "${MAGENTA}╔═══════════════════════════════════════════╗"
+echo -e "${MAGENTA}╔════════════════════════════════════════════════════════╗"
 echo -e "${MAGENTA}║${CYAN}       PufferPanel VV3 Installation Complete!    ${MAGENTA}║"
-echo -e "${MAGENTA}║${YELLOW}          Enjoy your server management!      ${MAGENTA}║"
-echo -e "${MAGENTA}╚═══════════════════════════════════════════╝${NC}"
+echo -e "${MAGENTA}║${YELLOW}          Enjoy your server management!        ${MAGENTA}║"
+echo -e "${MAGENTA}╚════════════════════════════════════════════════════════╝${NC}"
 echo -e "${CYAN}✨ ${GREEN}Thank you for using this script by ILLEGALDEVELOPMENTS!${NC}"
